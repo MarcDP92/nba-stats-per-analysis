@@ -28,7 +28,6 @@ This project explores NBA player statistics to calculate and analyze Player Effi
 📦 nba-analytics
 ├── 📄 NBA_Player_Efficiency_Analysis.ipynb  # Main analysis notebook
 ├── 📄 README.md                             # Project documentation
-└── 📄 requirements.txt                      # Python dependencies
 ```
 
 ## 🚀 Getting Started
@@ -96,6 +95,16 @@ jupyter notebook
 - Bimodal shooting patterns reflect modern NBA specialization
 - Role players and stars show distinct statistical profiles
 
+## 🎓 Project Insights
+
+**PER Distribution:**
+- League average uPER: ~0.43
+- Elite performers (0.8+) are extremely rare
+- Distribution is right-skewed, confirming efficiency scarcity
+
+**Top Performers:**
+Top 5 most efficient players include Nikola Jokić, Giannis Antetokounmpo, and other MVP-caliber players, validating the metric's effectiveness.
+
 ## 📊 Sample Visualizations
 
 The project includes comprehensive data visualizations:
@@ -104,36 +113,9 @@ The project includes comprehensive data visualizations:
 - **Correlation heatmap** revealing statistical relationships
 - **Scatter plots** exploring efficiency vs volume trade-offs
 
-## 🎓 Learning Outcomes
-
-This project demonstrates proficiency in:
-- **Data Science Workflow**: Collection, cleaning, analysis, visualization
-- **Basketball Analytics**: Domain-specific knowledge application
-- **Statistical Analysis**: Distribution analysis, correlation studies
-- **Python Libraries**: pandas, matplotlib, seaborn, NBA API
-- **Data Storytelling**: Extracting insights from complex datasets
-
-## 🔮 Future Enhancements
-
-- **Advanced PER**: Implement pace and league-adjusted PER calculations
-- **Player Comparisons**: Interactive tool for comparing individual players
-- **Predictive Modeling**: Forecast player performance based on efficiency metrics
-- **Team Analysis**: Extend analysis to team-level efficiency patterns
-- **Historical Trends**: Multi-season analysis of efficiency evolution
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request or open an Issue for any improvements or suggestions.
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **NBA API** for providing comprehensive basketball statistics
-- **Basketball Reference** for PER calculation methodology
-- **Python Data Science Community** for excellent tools and libraries
 
 ---
 
